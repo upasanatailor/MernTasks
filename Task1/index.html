@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Html Interpreter</title>
+<link rel = "stylesheet" href = "style.css">
+<script src = "script.js"></script>
+</head>
+<body>
+    <div class="Container">
+    <div class="Header">
+        <h3>HtmlCode</h3>
+        <h3>CssCode</h3>
+        <h3>JsCode</h3>
+    
+    </div>
+    
+    <div class="HtmlInterpreter">
+        <textarea id="htmlValue" rows="20" cols="60" placeholder="Enter your code here" oninput = showResult()></textarea>
+        <textarea id="cssvalue" rows="20" cols="60"  placeholder="Enter your code here" oninput = showResult()></textarea>
+        <textarea id="scriptValue" rows="20" cols="60" onWr placeholder="Enter your code here" oninput= showResult()></textarea>
+    </div>
+    <div class="compalier">
+        <h3>Compalier</h3>
+        <iframe id="compalier_area" title="description"></iframe>
+    </div>
+
+    
+    
+</body>
+</html>
